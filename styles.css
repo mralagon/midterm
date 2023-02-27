@@ -1,0 +1,155 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+    background: rgb(242, 234, 219);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(27, 25, 22);
+    margin-top: 7.3%;
+    position: relative;
+}
+
+nav{
+  position:fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color:rgb(242, 234, 219);
+  padding: 0 3em;
+  z-index: 999;
+}
+
+nav img{
+  float: left;
+  margin: 5px 0;
+}
+
+nav ul{
+  float: right;
+  margin-top: 1%;
+}
+
+nav ul li{
+  display: inline-block;
+  margin: 2em;
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+nav ul li a{
+  color: rgb(27, 25, 22);
+  width: 5%;
+  text-decoration: none;
+}
+
+article{
+  position: absolute;
+  width: 750px;
+  font-size:x-large;
+  top: 15%;
+  left: 360px;
+  text-align: center;
+}
+article p{
+  line-height: 3;
+}
+
+main{
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+  padding: 4%;
+  box-sizing: border-box;
+  background-color: rgb(242, 234, 219);
+
+}
+main img{
+  margin: auto;
+  display: block;
+}
+
+main h2{
+  line-height: 5;
+  text-align: center;
+  color: rgb(135, 118, 93);
+  font-size:1.7em;
+  font-weight: bold;
+} 
+main p{
+  text-align: center;
+  line-height: 2;
+}
+
+main .btn-area a{
+  display: block;
+  background: rgb(180, 160, 130);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-align: center;
+  width: 227px;
+  text-decoration: none;
+  line-height: 50px;
+  margin: 50px auto;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+main .btn-area a:hover{
+  background-color:rgb(204, 178, 139);
+}
+a.active{
+  background-color:rgb(204, 178, 139);
+}
+
+aside{
+  width: 50%;
+  float: left;
+  padding: 4%;
+  box-sizing: border-box;
+  
+}
+aside img{
+  margin: auto;
+  display: block;
+}
+
+aside h2{
+  line-height: 5;
+  text-align: center;
+  color: rgb(135, 118, 93);
+  font-size:1.7em;
+  font-weight: bold;
+}
+aside p{
+  text-align: center;
+  line-height: 2;
+}
+
+aside .btn-area a{
+  display: block;
+  background: rgb(180, 160, 130);
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  text-align: center;
+  width: 227px;
+  text-decoration: none;
+  line-height: 50px;
+  margin: 50px auto;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+aside .btn-area a:hover{
+  background-color:rgb(204, 178, 139);
+}
+
+footer{
+  color:rgb(255, 255, 255);
+  background:rgb(135, 118, 93);
+  padding: 3px;
+  text-align: center;
+  font-weight: 300;
+  overflow: hidden;
+}
